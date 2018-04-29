@@ -2,12 +2,10 @@
 /**
  * Menu based linear convolution in C89
  * Modified version of https://stackoverflow.com/a/8425094
- * TODO: Ask for edges of sequences
- * TODO: Print sequence with consideration of edges
  */
 
-#include <stddef.h>
 #include <stdio.h>
+/* #include <conio.h> */
 
 #define MAX 20
 #define ELEMENT_COUNT(X) (sizeof(X) / sizeof((X)[0]))
@@ -91,6 +89,8 @@ int main(void) {
     unsigned int signal_ip_size = 0;
     unsigned int kernel_ip_size = 0;
 
+    /* clrscr(); */
+
     signal_ip_size = get_signal("x", signal, signal_ip_size);
     if (signal_ip_size == 0) {
         /* Caught error */
@@ -109,6 +109,8 @@ int main(void) {
     print_signal("x", signal, signal_ip_size);
     print_signal("h", kernel, kernel_ip_size);
     print_signal("y", result, (signal_ip_size + kernel_ip_size - 1));
+
+    /* getch(); */
 
     return 0;
 }
