@@ -19,8 +19,8 @@ Programs on Discrete (Time) Signal Processing in C
 
 ## Important Links
 
-1. https://stackoverflow.com/q/8424170
-2. http://www.mathematica-journal.com/issue/v8i1/features/jankowski/contents/html/Links/index_lnk_2.html
+1. [StackOverflow - Linear Convolution](https://stackoverflow.com/q/8424170)
+2. [Mathematica Journal - Linear Convolution](http://www.mathematica-journal.com/issue/v8i1/features/jankowski/contents/html/Links/index_lnk_2.html)
 
 ## TODO
 
@@ -29,3 +29,8 @@ Programs on Discrete (Time) Signal Processing in C
 * TODO: Fix variable names
 * TODO: Test programs with IDE
 * TODO: Create a backup of handwritten notes
+
+## Downloads
+
+* [Setup DOSBOX *nix](./archive/setup.zip)
+* [Setup Windows (Github)](https://github.com/vineetchoudhary/turbocpp/releases/download/v3.2/Turbo.C.3.2.zip)
